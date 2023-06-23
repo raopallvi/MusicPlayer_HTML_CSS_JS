@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <div id="left-nav">
+            <img src="Play Music.png">
+            <a href="#"><span>Favourites</span></a>
+        </div>
+        <div id="right-nav">
+            <div id="search-box">
+                <label for="search"><i class="fa fa-search"></i></label>
+                <input type="text" name="search" placeholder="search" id="search">
+                <a href="#"> <i class="fa fa-microphone"></i></a>
+            </div>
+            <div id="search-icon">
+                <i class="fa fa-search"></i>
+            </div>
+            <div id="noti-bell">
+                <a href="#"><i class="fa fa-bell" style="font-size: 20px;color: white;"></i></a>
+            </div>
+            <div id="profile-pic">
+                <a href="#"><img src="profile.jpeg"></a>
+            </div>
+        </div>
+
+    </nav>
+    <main>
+        <div id="content">
+
+            <div class="content-row" id="trending-section">
+                <a href="#"><div class="trending-row-item"></div></a>
+                <a href="#"><div class="trending-row-item"></div></a>
+                <a href="#"><div class="trending-row-item"></div></a>
+            </div>
+            <div id="latest-release">
+                <div class="content-headings" id="latest-release-heading">
+                    <h2>Latest Releases</h2>
+                </div>
+                <div class="latest-release-row">
+                    <div class="latest-release-item" id="ist-song">
+                        <div id="left-div">
+                            <div class="song-img">
+                                <a href="#" class="song-anchor"><img src="white-play.png"></a>
+                            </div>
+                            <div>
+                                <span class="latest-relase-name">295</span>
+                                <span class="latest-relase-time">12 Dec, 2022</span>
+                            </div>
+                        </div>
+                        <div id="right-div">
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> <i class="fa more-details fa-ellipsis-h"
+                                        style="font-size:18px;font-weight:100;color:lightgray"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-play"></i> Play Now</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-plus"></i> Add to favourites</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-list"></i> Add to queue</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-info-circle"></i> Get info</a>
+                                </div>
+                            </div>
+                            <span style="opacity:0.8; font-size:9px">4m 08s</span>
+                        </div>
+                    </div>
+                    <div class="latest-release-item" id="sec-song">
+                        <div id="left-div">
+                            <div class="song-img">
+                                <a href="#" class="song-anchor"><img src="white-play.png"></a>
+                            </div>
+                            <div>
+                                <span class="latest-relase-name">East Side Flow</span>
+                                <span class="latest-relase-time">08 Jun, 2020</span>
+                            </div>
+                        </div>
+                        <div id="right-div">
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> <i class="fa more-details fa-ellipsis-h"
+                                        style="font-size:18px;font-weight:100;color:lightgray"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-play"></i> Play Now</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-plus"></i> Add to favourites</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-list"></i> Add to queue</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-info-circle"></i> Get info</a>
+                                </div>
+                            </div>
+                            <span style="opacity:0.8; font-size:9px">4m 44s</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-release-row">
+                    <div class="latest-release-item" id="third-song">
+                        <div id="left-div">
+                            <div class="song-img">
+                                <a href="#" class="song-anchor"><img src="white-play.png"></a>
+                            </div>
+                            <div>
+                                <span class="latest-relase-name">Dhakka</span>
+                                <span class="latest-relase-time">11 Apr, 2021</span>
+                            </div>
+                        </div>
+                        <div id="right-div">
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> <i class="fa more-details fa-ellipsis-h"
+                                        style="font-size:18px;font-weight:100;color:lightgray"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-play"></i> Play Now</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-plus"></i> Add to favourites</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-list"></i> Add to queue</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-info-circle"></i> Get info</a>
+                                </div>
+                            </div>
+                            <span style="opacity:0.8; font-size:9px">3m 08s</span>
+                        </div>
+                    </div>
+                    <div class="latest-release-item" id="fourth-song">
+                        <div id="left-div">
+                            <div class="song-img">
+                                <a href="#" class="song-anchor"><img src="white-play.png"></a>
+                            </div>
+                            <div>
+                                <span class="latest-relase-name">Chosen</span>
+                                <span class="latest-relase-time">12 Mar, 2022</span>
+                            </div>
+                        </div>
+                        <div id="right-div">
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> <i class="fa more-details fa-ellipsis-h"
+                                        style="font-size:18px;font-weight:100;color:lightgray"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#"><i class="fa fa-play"></i> Play Now</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-plus"></i> Add to favourites</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-list"></i> Add to queue</a>
+                                    <a class="dropdown-item" href="#"><i class="fa fa-info-circle"></i> Get info</a>
+                                </div>
+                            </div>
+                            <span style="opacity:0.8; font-size:9px">4m 24s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-box" id="popular-artists">
+                <div class="content-headings">
+                    <h2>Popular Artists</h2>
+                </div>
+                <div class="content-row">
+                    <a href="artist.html"><img
+                            src="https://upload.wikimedia.org/wikipedia/en/3/35/Shakira_-_Shakira_%282014%29.png">
+                        <h6>Shakira</h4>
+                    </a>
+                    <a href="artist.html"><img src="https://images2.alphacoders.com/127/thumb-1920-1272774.jpg">
+                        <h6>Eminem</h4>
+                    </a>
+                    <a href="artist.html"><img
+                            src="https://lastfm.freetls.fastly.net/i/u/ar0/b9251e1f431924ece212a83e450e1f49.jpg">
+                        <h6>Sidhu Moosewala</h4>
+                    </a>
+                    <a href="artist.html"><img src="https://i1.sndcdn.com/avatars-GBhEb4pyHIRKyPfO-9aDwAw-t500x500.jpg">
+                        <h6>Shubh</h4>
+                    </a>
+                    <a href="artist.html"><img
+                            src="data:image/jpeg;base64,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">
+                        <h6>Diljit</h4>
+                    </a>
+                    <a href="artist.html"><img
+                            src="https://yt3.googleusercontent.com/ytc/AL5GRJV-E072jLpm7gA0cX1iyyPsPOzkdlAUiAhdPNVjZA=s900-c-k-c0x00ffffff-no-rj">
+                        <h6>Sultaan</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="content-box" id="gener">
+
+                <div class="content-row">
+                    <div id="radio-station"><img src="play.png">
+                    </div>
+                    <a href="#" id="love-gener">
+                        <div>
+                            <span>Love</span>
+                        </div>
+                    </a>
+                    <a href="#" id="retro">
+                        <div>
+                            <span>Retro</span>
+                        </div>
+                    </a>
+                    <a href="#" id="chill">
+                        <div>
+                            <span>Chill</span>
+                        </div>
+                    </a>
+                    <a href="#" id="workout">
+                        <div>
+                            <span>Workout</span>
+                        </div>
+                    </a>
+                    <a href="#" id="rock">
+                        <div>
+                            <span>Rock</span>
+                        </div>
+                    </a>
+                    <a href="#" id="pop">
+                        <div>
+                            <span>Pop</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="content-box" id="category">
+                <div class="content-row">
+                    <a href="#">
+                        <div id="">
+                            <span>Party</span>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div>
+                            <span>Electornic</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <span>Trip</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="content-box" id="latest-english">
+                <div class="content-headings">
+                    <h2>Latest English</h2>
+                </div>
+                <div class="content-row">
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBk9BZ4bz/size_l.jpg">
+                        <span class="song-name">Smells Like me</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/ogNWkLDbmX/NWkLXrEkbm/size_l.jpg">
+                        <span class="song-name">Snap Pack</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/6Zxb2r7b9w/xb2rP4O7b9/size_l.webp">
+                        <span class="song-name">KING</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/kGxbn03y4r/xbnw4jm0Ky/size_l.jpg">
+                        <span class="song-name">Stay With Me</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/koMWQ7BKqL/oMWQ4LxM3q/size_l.webp">
+                        <span class="song-name">Cry Me a River</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBk9BZ4bz/size_l.jpg">
+                        <span class="song-name">Lorem</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                </div>
+            </div>
+            <div class="content-box" id="latest-hindi">
+                <div class="content-headings">
+                    <h2>Latest Hindi</h2>
+                </div>
+                <div class="content-row">
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBkQx9Dbz/size_m.jpg">
+                        <span class="song-name">Pathaan</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/a7LWBzWzXA/LWBk8R7Jbz/size_l.jpg">
+                        <span class="song-name">Maan meri jaan</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/XzVWRyL3dq/VWRyN6zy3d/size_l.jpg">
+                        <span class="song-name">Kesariya</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/10q3ZR1352/q3ZRrjZo35/size_l.jpg">
+                        <span class="song-name">Fitoor</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/albums/10q3Zj1352/q3ZR6q4035/size_l_1629048201.webp">
+                        <span class="song-name">Raataan Lambiyan</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                    <a href="#">
+                        <img src="https://a10.gaanacdn.com/gn_img/song/dwN39y83DP/N39JMBgvWD/size_m_1628604245.webp">
+                        <span class="song-name">JaiHind Ki Senaa</span>
+                        <span class="date">Aug 11, 2022</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="queue">
+            <div id="queue-heading">
+                <h4>Recommended</h4>
+                <a href="#">
+                    <sapn>Queue</sapn>
+                </a>
+            </div>
+            <ol type="1">
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Chosen</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Sidhu
+                                Moose Wala</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">No Love</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Shubh</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Pind da Riwaz</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Wazir
+                                Patar</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Khaane Khol de</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Harpreet
+                                Krewal</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Legend</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Sidhu
+                                Moose Wala</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Never Fold</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Sidhu
+                                Moose Wala</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Memories</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Maroon 5</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Hall of Fame</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">The
+                                Script</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Attention</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Charlie
+                                Puth</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Shape of You</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Ed
+                                Shreeran</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Mexico</a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Karan
+                                Aujala</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Sira E Hou </a>
+                            <a href="#" style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Amrit
+                                Maan</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Astronout</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Masked
+                                Wolf</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Do Vaari Jatt</a>
+                            <a href="#"
+                                style="font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Jordan
+                                Sandhu</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="ql-div">
+                        <div class="song-img">
+                            <a href="#"><img src="white-play.png"></a>
+                        </div>
+                        <div class="q-song-det">
+                            <a href="#" style="text-decoration: none;color: white;">Teeje Week</a>
+                            <a href="#"
+                                style="font-size: 13px; font-weight: 100; opacity: 0.8;text-decoration: none;color: white;">Jordan
+                                Sandhu</a>
+                        </div>
+                    </div>
+                    <div class="qr-div">
+                        <a href="#" style="text-decoration: none; color: white;" class="heart"><i
+                                class="fa fa-heart"></i></a>
+                    </div>
+                </li>
+
+            </ol>
+        </div>
+
+
+        <div class="play-bar" style="color:white">
+            <div id="play-song">
+                <img height="40px" width="40px" style="margin-right: 10px; border-radius: 4px;"
+                    src="https://th.bing.com/th/id/OIP.WuoKO74K6w4sxcJyOR86pgHaHa?pid=ImgDet&rs=1">
+                <div id="play-song-det">
+                    <marquee behavior="scroll" direction="left">Shape of You</marquee>
+                    <span>Ed Shreeran</span>
+                </div>
+            </div>
+            <div id="controls">
+                <div>
+                    <i class="fa fa-repeat"></i>
+                    <i class="fa fa-fast-backward"></i>
+                    <i class="fa fa-play-circle" style="font-size: 30px;"></i>
+                    <i class="fa fa-fast-forward"></i>
+                    <i class="fa fa-random"></i>
+                </div>
+                <div id="slider">
+                    <span>0.00</span><input class="input" type="range"><span>4.44</span>
+                </div>
+
+            </div>
+            <div id="sound">
+                <div>
+                    <i class="fa fa-laptop"></i>
+                    <i class="fa fa-list"></i>
+                    <i class="fa fa-volume-up"></i>
+                    <input class="input" type="range">
+                    <i class="fa fa-square"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
